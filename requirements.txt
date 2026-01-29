@@ -1,0 +1,11 @@
+# Requirements for Spark SQL Runner
+
+# Core PySpark (installed on Dataproc by default)
+# pyspark>=3.0.0
+
+# For Cloud Composer DAG
+apache-airflow-providers-google>=10.0.0
+
+# For local testing (optional)
+# google-cloud-dataproc>=5.0.0
+# google-cloud-storage>=2.0.0
